@@ -8,9 +8,6 @@
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "nlauvray",
-    "license": "ISC",
-    "dependencies": {
-      "numpy": "^1.21.2"
-    }
+    "license": "ISC"
   }
   
