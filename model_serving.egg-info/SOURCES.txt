@@ -1,0 +1,11 @@
+README.md
+setup.py
+model_serving.egg-info/PKG-INFO
+model_serving.egg-info/SOURCES.txt
+model_serving.egg-info/dependency_links.txt
+model_serving.egg-info/top_level.txt
+script/__init__.py
+script/evaluate.py
+script/generate.py
+script/prompt_handler.py
+script/serve.py

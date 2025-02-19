@@ -1,4 +1,6 @@
 import torch
 
-model = torch.nn.Linear(10, 1)
-model.load_state_dict(torch.load("../model-training/data/model.pth"))
+from model_training.data import model
+
+models = torch.nn.Linear(10, 1)
+models.load_state_dict(torch.load(model))

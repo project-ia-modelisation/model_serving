@@ -1,9 +1,9 @@
 import torch
-from models.model import Simple3DGenerator, Simple2DGenerator
+from model_training.models.model import Simple3DGenerator, Simple2DGenerator
 import trimesh
 import os
 from scipy.spatial import ConvexHull
-from visualisation.lecture import save_image
+from visualize.visualisation.lecture import save_image
 import numpy as np
 import torch.nn as nn
 
